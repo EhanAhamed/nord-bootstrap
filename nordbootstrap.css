@@ -1,3 +1,13 @@
+/*
+This CSS contains a modified version of Bootstrap's CSS
+Bootstrap's License can be found here: https://github.com/twbs/bootstrap/blob/main/LICENSE
+
+This CSS contains the Nord color scheme made by Arctic Ice Studio & Sven Greb
+Nord's License can be found here: https://github.com/arcticicestudio/nord/blob/develop/LICENSE.md
+
+The modifications to Bootstrap's CSS were done by SaberTooth Studios Games
+The github resipritory containing the source code of this CSS can be found here: https://github.com/SaberTooth-Studios/NordTheme-Bootstrap/
+*/
 :root {
   --blue: #88C0D0;
   --indigo: #5E81AC;
