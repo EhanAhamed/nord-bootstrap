@@ -55,7 +55,7 @@ This github repository contains a modified version of Bootstrap. Bootstrap is li
 
 This github repository contains the Nord color scheme. Nord is licensed under the MIT license. See [Nord's license file](./NordLICENSE) for more details.
 
-⚠️ **The MIT license requires you to keep license files included in your project. Luckily for you, links to license files are already inclided in the css and minfied css files. You may not remove the link to these licenses when used in your project. You do not need to manually attach any license files.**
+⚠️ **The MIT license requires you to keep license files included in your project. Links to license files are already inclided in the css and minfied css files. You may not remove the link to these licenses when used in your project. You do not need to manually attach any license files.**
 
 👍 The MIT license lets you: modify the source code, download and use the contents of this repository in your own projects regardless of if they be personal, commercial, or private projects, and grant a sublicense to modify and distribute this repository's contents to third parties not included in the license,
 
