@@ -31,6 +31,8 @@ Then, follow [bootstrap's documentation](https://getbootstrap.com/docs/5.1/getti
 
 And, you're done! It's as simple as that! 😸
 
+Now read [bootstrap's documentation](https://getbootstrap.com/docs/5.1) on how to properly create elements on your page!
+
 ## How to Contribute
 Read [`contributing.md`](./contributing.md) on how to contribute!
 
