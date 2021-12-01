@@ -23,6 +23,8 @@ This is made to be used by developers that are creating responsive websites or w
 ## How To Use
 First, download the CSS file found in this repo. Use the minified version; [`nordbootstrap.min.css`](./nordbootstrap.min.css), for any use other than debugging the CSS. (for debugging the css, use the pretty print file inclided in this repo; [`nordbootstrap.css`](./nordbootstrap.css))
 
+👉 By the way, you can easily download individual files from the [releases tab](https://github.com/SaberTooth-Studios/NordTheme-Bootstrap/releases)
+
 Next, link the downloaded css file to the `<head> </head>` html of your webpage, link it before any other css files you may use.
 
 Then, follow [bootstrap's documentation](https://getbootstrap.com/docs/5.1/getting-started/javascript/) on how to link their optional javascript files (these javascript libraries add extra functionality to your webpage, and are not required for your website to function properly)
@@ -35,12 +37,12 @@ Read [`contributing.md`](./contributing.md) on how to contribute!
 If you've found a problem then open an issue! Thanks! 😽
 
 ## Special Thanks To
-[Arctic Ice Studio](https://github.com/arcticicestudio) & [Sven Greb](https://github.com/svengreb) for creating [Nord Theme](https://www.nordtheme.com/)!
+[Arctic Ice Studio](https://github.com/arcticicestudio) & [Sven Greb](https://github.com/svengreb) for creating [Nord Theme](https://www.nordtheme.com/)! 🤩
 
-[Bootstrap Team](https://getbootstrap.com/docs/5.1/about/team/) for creating [Bootstrap](https://getbootstrap.com/)!
+[Bootstrap Team](https://getbootstrap.com/docs/5.1/about/team/) for creating [Bootstrap](https://getbootstrap.com/)! 🥰
 
-[Github](https://github.com/github) for creating [Github](https://github.com/)!
+[Github](https://github.com/github) for creating [Github](https://github.com/)! 😄
 
-And last but certainly not least; You for checking out this repo!
+And last but certainly not least; You for checking out this repo! 😸
 
 ### Cya Later 👋
