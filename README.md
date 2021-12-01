@@ -31,7 +31,7 @@ Then, follow [bootstrap's documentation](https://getbootstrap.com/docs/5.1/getti
 
 And, you're done! It's as simple as that! 😸
 
-Now read [bootstrap's documentation](https://getbootstrap.com/docs/5.1) on how to properly create elements on your page!
+Now read [bootstrap's documentation](https://getbootstrap.com/docs/5.1/layout) on how to properly create elements on your page! Skip the "Getting Started" and "Customize" Sections of the documentation if you're using this recolor of bootstrap! 👈
 
 ## How to Contribute
 Read [`contributing.md`](./contributing.md) on how to contribute!
