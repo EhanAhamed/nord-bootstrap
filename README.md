@@ -1,5 +1,13 @@
 # NordTheme Bootstrap
-Bootstrap's CSS, modified to use the Nord color scheme!
+This is Bootstrap's CSS, modified to use the Nord color scheme!
+
+What's Bootstrap? Visit [their website](https://getbootstrap.com/) for information and documentation about Bootstrap!
+
+This is not a fork of Bootstrap, but rather a modified version of one specific part of bootstrap; it's CSS styles.
+
+This is not a pull request or rejected contribution to Bootstrap, this is Bootstrap's CSS but modified to fit the "Nord" color scheme!
+
+This is made to be used by developers that are creating responsive websites or webapps in the Nord color scheme. If you are trying to make a responsive website or webapp that does not use the Nord color scheme, then use the original [Bootstrap](https://getbootstrap.com/), not this recolored version of it!
 
 ## Screenshots
 [Example Screenshot 1](./screenshots/screenshot1.png)
