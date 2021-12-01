@@ -10,15 +10,15 @@ This is not a pull request or rejected contribution to Bootstrap, this is Bootst
 This is made to be used by developers that are creating responsive websites or webapps in the Nord color scheme. If you are trying to make a responsive website or webapp that does not use the Nord color scheme, then use the original [Bootstrap](https://getbootstrap.com/), not this recolored version of it!
 
 ## Screenshots
-[Example Screenshot 1](./screenshots/screenshot1.png)
+[Example Screenshot 1](screenshots/screenshot1.png)
 
-[Example Screenshot 2](./screenshots/screenshot2.png)
+[Example Screenshot 2](screenshots/screenshot2.png)
 
-[Example Screenshot 3](./screenshots/screenshot3.png)
+[Example Screenshot 3](screenshots/screenshot3.png)
 
-[Example Screenshot 4](./screenshots/screenshot4.png)
+[Example Screenshot 4](screenshots/screenshot4.png)
 
-[Example Screenshot 5](./screenshots/screenshot5.png)
+[Example Screenshot 5](screenshots/screenshot5.png)
 
 ## How To Use
 First, download the CSS file found in this repo. Use the minified version; [`nordbootstrap.min.css`](./nordbootstrap.min.css), for any use other than debugging the CSS. (for debugging the css, use the pretty print file inclided in this repo; [`nordbootstrap.css`](./nordbootstrap.css))
