@@ -12,7 +12,7 @@ First, Download the SCSS Variables file from this repo; [`nordbootstrap_variable
 
 Next, open the file in an editor of your choice, I highly reccomend [bootstrap.build](https://bootstrap.build/), since it has a live preview of almost every element, and has great visual tools. 
 
-Then, if you used bootstrap.build to modify the file, export it from bootstrap.build as `_variables.scss`, `bootstrap.css`, and `bootstrap.min.css` files from the "export" dropdown at the top bar of the editor. If you used an exernal editor to edit the SCSS Variables file then import the modified SCSS Variables file into bootstrap.build and follow the steps above to generate the CSS files.
+Then, after you finish editing, if you used bootstrap.build to modify the file, export it from bootstrap.build as `_variables.scss`, `bootstrap.css`, and `bootstrap.min.css` files from the "export" dropdown at the top bar of the editor. If you used an exernal editor to edit the SCSS Variables file then import the modified SCSS Variables file into bootstrap.build and follow the steps above to generate the CSS files.
 
 After that, open a pull request to this repo, and you're done! 🥳
 
