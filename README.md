@@ -21,7 +21,7 @@ This is made to be used by developers that are creating responsive websites or w
 [Example Screenshot 5](./screenshots/screenshot5.png)
 
 ## How To Use
-First, download the CSS file found in this repo. Use the minified version; `nordbootstrap.min.css`, for any use other than debugging the CSS. (for debugging the css, use the pretty print file inclided in this repo; `nordbootstrap.css`)
+First, download the CSS file found in this repo. Use the minified version; [`nordbootstrap.min.css`](./nordbootstrap.min.css), for any use other than debugging the CSS. (for debugging the css, use the pretty print file inclided in this repo; [`nordbootstrap.css`](./nordbootstrap.css))
 
 Next, link the downloaded css file to the `<head> </head>` html of your webpage, link it before any other css files you may use.
 
@@ -30,7 +30,9 @@ Then, follow [bootstrap's documentation](https://getbootstrap.com/docs/5.1/getti
 And, you're done! It's as simple as that! 😸
 
 ## How to Contribute
-Read `contributing.md` on how to contribute! If you've found a problem then open an issue! Thanks! 😺
+Read [`contributing.md`](./contributing.md) on how to contribute!
+
+If you've found a problem then open an issue! Thanks! 😺
 
 ## Special Thanks To
 [Arctic Ice Studio](https://github.com/arcticicestudio) & [Sven Greb](https://github.com/svengreb) for creating [Nord Theme](https://www.nordtheme.com/)!
