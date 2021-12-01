@@ -34,7 +34,7 @@ And, you're done! It's as simple as that! 😸
 ## How to Contribute
 Read [`contributing.md`](./contributing.md) on how to contribute!
 
-If you've found a problem then open an issue! Thanks! 😽
+If you've found a problem then [open an issue](https://github.com/SaberTooth-Studios/NordTheme-Bootstrap/issues)! Thanks! 😽
 
 ## Special Thanks To
 [Arctic Ice Studio](https://github.com/arcticicestudio) & [Sven Greb](https://github.com/svengreb) for creating [Nord Theme](https://www.nordtheme.com/)! 🤩
