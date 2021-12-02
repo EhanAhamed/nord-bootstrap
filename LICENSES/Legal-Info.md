@@ -2,9 +2,9 @@
 
 This github repository and all it's contents are licensed under the MIT license. See the [license file](./LICENSE) for more details.
 
-This github repository contains a modified version of Bootstrap. Bootstrap is licensed under the MIT license. See [Bootstrap's license file](./LICENSES/BootstrapLICENSE) for more details.
+This github repository contains a modified version of Bootstrap. Bootstrap is licensed under the MIT license. See [Bootstrap's license file](./BootstrapLICENSE) for more details.
 
-This github repository contains the Nord color scheme. Nord is licensed under the MIT license. See [Nord's license file](./LICENSES/NordLICENSE) for more details.
+This github repository contains the Nord color scheme. Nord is licensed under the MIT license. See [Nord's license file](./NordLICENSE) for more details.
 
 ⚠️ **The MIT license requires you to keep license files included in your project. Links to license files are already inclided in the css and minfied css files. You may not remove the link to these licenses when used in your project. You do not need to manually attach any license files.**
 
