@@ -1,5 +1,5 @@
-# NordTheme Bootstrap
-This is Bootstrap's CSS, modified to use the Nord color scheme!
+![NordTheme Bootstrap](screenshots/banner.png)
+# Bootstrap's CSS, modified to use the Nord color scheme!
 
 What's Bootstrap? Visit [their website](https://getbootstrap.com/) for information and documentation about Bootstrap!
 
@@ -36,7 +36,7 @@ Now read [bootstrap's documentation](https://getbootstrap.com/docs/5.1/layout) o
 ⚠️ **This repo does NOT use the method of theming explained in [Bootstrap's Customization Documentation](https://getbootstrap.com/docs/5.1/customize/overview/) and instead combines Bootstrap's original CSS with the modifications into one file. So unlike what Bootstrap's Documentation might say, you do should NOT link Bootstrap's original CSS file along with this recolored version, since this repo's CSS already contains Bootstrap's original content in the same file as the modifications! You should still link Bootstrap's original JS libraries using the process described in [their documentation](https://getbootstrap.com/docs/5.1/getting-started/javascript)! You should NOT follow Bootstrap's CSS linking instructions if you want to use this repo's CSS!**
 
 ## How to Contribute
-Read [`contributing.md`](./contributing.md) on how to contribute!
+Read [`contributing.md`](./CONTRIBUTING.md) on how to contribute!
 
 If you've found a problem then [open an issue](https://github.com/SaberTooth-Studios/NordTheme-Bootstrap/issues)! Thanks! 😽
 
@@ -53,9 +53,9 @@ And last but certainly not least; You for checking out this repo! 😸
 
 This github repository and all it's contents are licensed under the MIT license. See the [license file](./LICENSE) for more details.
 
-This github repository contains a modified version of Bootstrap. Bootstrap is licensed under the MIT license. See [Bootstrap's license file](./BootstrapLICENSE) for more details.
+This github repository contains a modified version of Bootstrap. Bootstrap is licensed under the MIT license. See [Bootstrap's license file](./LICENSES/BootstrapLICENSE) for more details.
 
-This github repository contains the Nord color scheme. Nord is licensed under the MIT license. See [Nord's license file](./NordLICENSE) for more details.
+This github repository contains the Nord color scheme. Nord is licensed under the MIT license. See [Nord's license file](./LICENSES/NordLICENSE) for more details.
 
 ⚠️ **The MIT license requires you to keep license files included in your project. Links to license files are already inclided in the css and minfied css files. You may not remove the link to these licenses when used in your project. You do not need to manually attach any license files.**
 
