@@ -27,13 +27,13 @@ First, download the CSS file found in this repo. Use the minified version; [`nor
 
 Next, link the downloaded css file to the `<head> </head>` html of your webpage, link it before any other css files you may use.
 
-Then, follow [bootstrap's documentation](https://getbootstrap.com/docs/5.1/getting-started/javascript/) on how to link their optional javascript files (these javascript libraries add extra functionality to your webpage, and are not required for your website to function properly)
+Then, follow [Bootstrap's documentation](https://getbootstrap.com/docs/5.1/getting-started/javascript/) on how to link their optional javascript files (these javascript libraries add extra functionality to your webpage, and are not required for your website to function properly) **DO NOT follow the CSS linking instructions from Bootstrap's documentation since you should only link this repo's CSS, which contains Bootstrap's original CSS but with modified colors** 
 
 And, you're done! It's as simple as that! 😸
 
 Now read [bootstrap's documentation](https://getbootstrap.com/docs/5.1/layout) on how to properly create elements on your page! Skip the "Getting Started" and "Customize" Sections of the documentation if you're using this recolor of bootstrap! 👈
 
-⚠️ **This repo does NOT use the method of theming explained in [Bootstrap's Customization Documentation](https://getbootstrap.com/docs/5.1/customize/overview/) and instead combines Bootstrap's original CSS with the modifications into one file. So unlike what Bootstrap's Documentation might say, you do should NOT link Bootstrap's original CSS file along with this recolored version, since this repo's CSS already contains Bootstrap's original content in the same file as the modifications!**
+⚠️ **This repo does NOT use the method of theming explained in [Bootstrap's Customization Documentation](https://getbootstrap.com/docs/5.1/customize/overview/) and instead combines Bootstrap's original CSS with the modifications into one file. So unlike what Bootstrap's Documentation might say, you do should NOT link Bootstrap's original CSS file along with this recolored version, since this repo's CSS already contains Bootstrap's original content in the same file as the modifications! You should still link Bootstrap's original JS libraries using the process described in [their documentation](https://getbootstrap.com/docs/5.1/getting-started/javascript)! You should NOT follow Bootstrap's CSS linking instructions if you want to use this repo's CSS!**
 
 ## How to Contribute
 Read [`contributing.md`](./contributing.md) on how to contribute!
