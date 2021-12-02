@@ -33,6 +33,8 @@ And, you're done! It's as simple as that! 😸
 
 Now read [bootstrap's documentation](https://getbootstrap.com/docs/5.1/layout) on how to properly create elements on your page! Skip the "Getting Started" and "Customize" Sections of the documentation if you're using this recolor of bootstrap! 👈
 
+⚠️ **This repo does NOT use the method of theming explained in [Bootstrap's Customization Documentation](https://getbootstrap.com/docs/5.1/customize/overview/) and instead combines Bootstrap's original CSS with the modifications into one file. So unlike what Bootstrap's Documentation might say, you do should NOT link Bootstrap's original CSS file along with this recolored version, since this repo's CSS already contains Bootstrap's original content in the same file as the modifications!**
+
 ## How to Contribute
 Read [`contributing.md`](./contributing.md) on how to contribute!
 
