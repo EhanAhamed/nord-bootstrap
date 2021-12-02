@@ -1,6 +1,6 @@
 ## Licenses & Legal Information
 
-This github repository and all it's contents are licensed under the MIT license. See the [license file](LICENSE) for more details.
+This github repository and all it's contents are licensed under the MIT license. See the [license file](https://github.com/SaberTooth-Studios/NordTheme-Bootstrap/blob/main/LICENSE) for more details.
 
 This github repository contains a modified version of Bootstrap. Bootstrap is licensed under the MIT license. See [Bootstrap's license file](./BootstrapLICENSE) for more details.
 
