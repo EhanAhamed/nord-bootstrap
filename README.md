@@ -31,7 +31,7 @@ First, download the CSS file found in this repo. Use the minified version; [`nor
 
 Next, link the downloaded css file to the `<head> </head>` html of your webpage, link it before any other css files you may use.
 
-Then, follow [Bootstrap's documentation](https://getbootstrap.com/docs/5.1/getting-started/javascript/) on how to link their optional javascript files (these javascript libraries add extra functionality to your webpage, and are not required for your website to function properly) ⚠️ **DO NOT follow the CSS linking instructions from Bootstrap's documentation since you should only link this repo's CSS, which contains Bootstrap's original CSS but with modified colors** 
+Then, follow [Bootstrap's documentation](https://getbootstrap.com/docs/5.1/getting-started/introduction/) on how to link their optional javascript files (these javascript libraries add extra functionality to your webpage, and are not required for your website to function properly) ⚠️ **DO NOT follow the CSS linking instructions from Bootstrap's documentation since you should only link this repo's CSS, which contains Bootstrap's original CSS but with modified colors** 
 
 And, you're done! It's as simple as that! 😸
 
