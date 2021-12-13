@@ -31,7 +31,7 @@ This is made to be used by developers that are creating responsive websites or w
 ## How To Use
 First, download the CSS file found in this repo. Use the minified version; [`nordbootstrap.min.css`](./nordbootstrap.min.css), for any use other than debugging the CSS. (for debugging the css, use the pretty print file inclided in this repo; [`nordbootstrap.css`](./nordbootstrap.css))
 
-👉 By the way, you can easily download individual files from the [releases tab](https://github.com/SaberTooth-Studios/NordTheme-Bootstrap/releases)
+👉 By the way, you can easily download individual files from the [releases tab](https://github.com/SaberTooth-Studios/NordTheme-Bootstrap/releases), make sure to use the latest release!
 
 Next, link the downloaded css file to the `<head> </head>` html of your webpage, link it before any other css files you may use.
 
