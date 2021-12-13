@@ -24,6 +24,10 @@ This is made to be used by developers that are creating responsive websites or w
 
 ![Example Screenshot 7](screenshots/screenshot7.png)
 
+![Example Screenshot 8](screenshots/screenshot8.png)
+
+![Example Screenshot 9](screenshots/screenshot9.png)
+
 ## How To Use
 First, download the CSS file found in this repo. Use the minified version; [`nordbootstrap.min.css`](./nordbootstrap.min.css), for any use other than debugging the CSS. (for debugging the css, use the pretty print file inclided in this repo; [`nordbootstrap.css`](./nordbootstrap.css))
 
