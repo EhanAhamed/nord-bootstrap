@@ -35,13 +35,18 @@ First, download the CSS file found in this repo. Use the minified version; [`nor
 
 Next, link the downloaded css file to the `<head> </head>` html of your webpage, link it before any other css files you may use.
 
-Then, follow [Bootstrap's documentation](https://getbootstrap.com/docs/5.1/getting-started/introduction/) on how to link their optional javascript files (these javascript libraries add extra functionality to your webpage, and are not required for your website to function properly) ⚠️ **DO NOT follow the CSS linking instructions from Bootstrap's documentation since you should only link this repo's CSS, which contains Bootstrap's original CSS but with modified colors** 
+Then, follow [Bootstrap's documentation](https://getbootstrap.com/docs/5.1/getting-started/introduction/) on how to link their optional javascript files (these javascript libraries add extra functionality to your webpage, and are not required for your website to function properly) ⚠️ **DO NOT follow the CSS linking instructions from Bootstrap's documentation since you should only link this repo's CSS, which contains Bootstrap's original CSS but with modified colors. However, you should follow Bootstrap's instructions for the JavaScript libraries!** 
 
 And, you're done! It's as simple as that! 😸
 
 Now read [bootstrap's documentation](https://getbootstrap.com/docs/5.1/layout) on how to properly create elements on your page! Skip the "Getting Started" and "Customize" Sections of the documentation if you're using this recolor of bootstrap! 👈
 
-⚠️ **This repo does NOT use the method of theming explained in [Bootstrap's Customization Documentation](https://getbootstrap.com/docs/5.1/customize/overview/) and instead combines Bootstrap's original CSS with the modifications into one file. So unlike what Bootstrap's Documentation might say, you do should NOT link Bootstrap's original CSS file along with this recolored version, since this repo's CSS already contains Bootstrap's original content in the same file as the modifications! You should still link Bootstrap's original JS libraries using the process described in [their documentation](https://getbootstrap.com/docs/5.1/getting-started/javascript)! You should NOT follow Bootstrap's CSS linking instructions if you want to use this repo's CSS!**
+If you have any questions on how to use this then feel free to email me at sabertooth.studios.games@gmail.com, send me a discord dm at SaberTooth Studios Games#3654, or send me a twitter dm at @SaberGameDev.
+No matter how silly your question might seem, please do reach out to me if you need any help! 🥰
+
+If you find a problem, open a github issue! 😸
+
+If you think you can fix the problem yourself, still open an issue so others will know you're already working on it! and when you're done, open a pull request! 🔧
 
 ## How to Contribute
 Read [`contributing.md`](./CONTRIBUTING.md) on how to contribute!
