@@ -48,6 +48,8 @@ If you find a problem, open a github issue! 😸
 
 If you think you can fix the problem yourself, still open an issue so others will know you're already working on it! and when you're done, open a pull request! 🔧
 
+If you do decide to contribute, read the section below on the conventions and rules of how to contribute to this repo!
+
 ## How to Contribute
 Read [`contributing.md`](./CONTRIBUTING.md) on how to contribute!
 
