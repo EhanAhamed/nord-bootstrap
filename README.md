@@ -80,6 +80,6 @@ This github repository contains the Nord color scheme. Nord is licensed under th
 
 👉 **TL;DR - Do not remove links to licenses, Do not hold this repository liable for anything, Do not include anyone's logos/artwork in a way that might make people think we created your project or you created our projects.**
 
-**Anything else is fine; feel free to use this repo's contents in your personal, commercial, open source, closed source, or private projects! and feel free to modify this repo's source code! 👉 The only things in this repository that you shouldn't use in your own projects are [`screenshots/banner.png`](./screenshots/banner.png) and [`screenshots/cover.png`](./screenshots/banner.png), only use those images for forks of this repo, not for any other projects!**     
+**Anything else is fine; feel free to use this repo's contents in your personal, commercial, open source, closed source, or private projects! and feel free to modify this repo's source code! 👉 The only things in this repository that you shouldn't use in your own projects are [`screenshots/banner.png`](./screenshots/banner.png) and [`screenshots/cover.png`](./screenshots/cover.png), only use those images for forks of this repo, not for any other projects!**     
 
 ### Cya Later 👋
