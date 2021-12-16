@@ -78,6 +78,8 @@ This github repository contains the Nord color scheme. Nord is licensed under th
 
 ⛔ The MIT license forbids you from: Holding the authors of this repository's contents and license owners liable for damages caused by your projects that include this repositories contents, including SaberTooth Studios Games's, Twitter's, Nord's, Bootstrap's, Arctic Ice Studios's, or Sven Greb's logos or names in a way that might state or imply that the listed companies, persons, orginizations, or groups have created, distrubuted, or are affliated with your project, or in a way that might state or imply that you created the projects owned by the listed companies, persons, orginizations, or groups.
 
-👉 **TL;DR - Do not remove links to license files that are in the CSS files, Do not hold this repository liable for anything, Do not include anyone's logos in a way that might make people think we created your project or you created our projects. Anything else is fine; feel free to use this repo's contents in your personal, commercial, open source, closed source, or private projects! and feel free to modify this repo's source code!**     
+👉 **TL;DR - Do not remove links to licenses, Do not hold this repository liable for anything, Do not include anyone's logos/artwork in a way that might make people think we created your project or you created our projects.**
+
+**Anything else is fine; feel free to use this repo's contents in your personal, commercial, open source, closed source, or private projects! and feel free to modify this repo's source code! 👉 The only things in this repository that you shouldn't use in your own projects are [`screenshots/banner.png`](./screenshots/banner.png) and [`screenshots/cover.png`](./screenshots/banner.png), only use those images for forks of this repo, not for any other projects!**     
 
 ### Cya Later 👋
