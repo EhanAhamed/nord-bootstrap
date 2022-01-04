@@ -3759,7 +3759,7 @@ input[type="button"].btn-block {
   font-weight: 700; }
 
 .alert-dismissible {
-  padding-right: 4.75rem; }
+  padding-right: 4rem; }
   .alert-dismissible .close {
     position: absolute;
     top: 0;
@@ -4113,16 +4113,16 @@ input[type="button"].btn-block {
 
 .close {
   float: right;
-  font-size: 2.25rem;
-  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: bolder;
   line-height: 1;
-  color: #BF616A;
+  color: #ECEFF4;
   opacity: .5; }
   @media (max-width: 1200px) {
     .close {
-      font-size: calc(1.35rem + 1.2vw) ; } }
+      font-size: calc(1.275rem + 0.3vw) ; } }
   .close:hover {
-    color: #BF616A;
+    color: #ECEFF4;
     text-decoration: none; }
   .close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus {
     opacity: .75; }
