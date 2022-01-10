@@ -1,3 +1,9 @@
+# ⚠️ The Current Branch, `v5`, is a work in progress, read [this](./WorkInProgressREADME) for more info! ⚠️
+
+
+# Switch back to the `main` branch if you want to implement this repo into your project
+
+
 ![NordTheme Bootstrap](screenshots/banner.png)
 # Bootstrap's CSS, modified to use the Nord color scheme!
 
