@@ -1,4 +1,4 @@
-# ⚠️ The Current Branch, `v5`, is a work in progress, read [this](./WorkInProgressREADME) for more info! ⚠️
+# ⚠️ The Current Branch, `v5`, is a work in progress, read [this](./WorkInProgressREADME.md) for more info! ⚠️
 
 
 # Switch back to the `main` branch if you want to implement this repo into your project
