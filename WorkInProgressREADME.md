@@ -3,4 +3,4 @@
 
 At it's current state this project uses bootstrap v4, this branch is the work in progress migration to v5.
 
-The `main` branch was made using bootstrap.build, however this repo is now migrating to no longer depend on bootstrap.build and instead have contributors manually edit files.
+The `main` branch was made using the bootstrap.build theming tool, however this repo is now migrating to no longer depend on bootstrap.build and instead have contributors manually edit files.
