@@ -1,0 +1,2 @@
+### Hai!
+## This branch, `v5`, is a work in progress branch for the migration to bootstrap v5, this branch is not stable and you shouldn't use the contents of this branch in your projects, this branch is only for contributors to help migrate this project from bootstrap 4 to 5!
