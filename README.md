@@ -1,7 +1,7 @@
 # ⚠️ The Current Branch, `v5`, is a work in progress, read [this](./WorkInProgressREADME.md) for more info! ⚠️
 
 
-# Switch back to the `main` branch if you want to implement this repo into your project
+# Switch back to the `main` branch if you want to implement this repo into your project, the v5 branch is not stable or useable
 
 
 ![NordTheme Bootstrap](screenshots/banner.png)
