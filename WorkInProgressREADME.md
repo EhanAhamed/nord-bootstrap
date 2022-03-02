@@ -1,8 +1,0 @@
-### Hai!
-## This branch, `v5`, is a work in progress branch for the migration to bootstrap v5, this branch is not stable and you shouldn't use the contents of this branch in your projects, this branch is only for contributors to help migrate this project from bootstrap 4 to 5!
-
-At it's current state this project uses bootstrap v4, this branch is the work in progress migration to v5.
-
-The `main` branch was made using the bootstrap.build theming tool, however this repo is now migrating to no longer depend on bootstrap.build and instead have contributors manually edit files.
-
-The folder structure of this repo will also change because of this since now we need a folder containing html for contributors to preview their changes and we need to seperate the contributing environment from the distrubutable files

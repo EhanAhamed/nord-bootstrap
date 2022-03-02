@@ -1,0 +1,16 @@
+{
+  "name": "nord-bootstrap",
+  "version": "5.1.3",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "sass": "^1.49.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SaberToothed Dev",
+  "license": "MIT"
+}
