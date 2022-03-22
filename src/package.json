@@ -1,16 +1,22 @@
 {
   "name": "nord-bootstrap",
-  "version": "5.1.3",
-  "description": "",
+  "version": "5.0.0",
+  "description": "The Community Maintained Nord Theme for Bootstrap 5",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
-    "bootstrap": "^5.1.3",
-    "sass": "^1.49.7"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaberToothed-Dev/nord-bootstrap.git"
   },
   "author": "SaberToothed Dev",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SaberToothed-Dev/nord-bootstrap/issues"
+  },
+  "homepage": "https://github.com/SaberToothed-Dev/nord-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "nord": "^0.2.1"
+  }
 }
