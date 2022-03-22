@@ -1,1 +1,16 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/nord/src/nord.scss";
+
+$black: $nord0;
+
+$gray-900: mix($nord1, $nord0, 50%);
+$gray-800: $nord1;
+$gray-700: $nord2;
+$gray-600: $nord3;
+$gray-500: mix($nord4, $nord3, 25%);
+$gray-400: mix($nord4, $nord3, 50%);
+$gray-300: mix($nord4, $nord3, 75%);
+$gray-200: $nord4;
+$gray-100: $nord5;
+
+$white: $nord6;
