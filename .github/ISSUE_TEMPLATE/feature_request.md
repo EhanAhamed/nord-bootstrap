@@ -3,7 +3,7 @@ name: Feature request
 about: Suggest an idea
 title: Short Description of Feature Goes Here [Feature Request]
 labels: ''
-assignees: SaberTooth-Studios
+assignees: SaberToothed-Dev
 
 ---
 
@@ -16,4 +16,4 @@ Sketches or Concept Art (if applicable) below:
 **Additional context**
 Add any other context or screenshots about the feature request below:
 
-**Ping @SaberTooth-Studios**
+**Ping @SaberToothed-Dev**
