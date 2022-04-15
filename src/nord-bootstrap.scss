@@ -1,7 +1,6 @@
 @import "node_modules/nord/src/sass/nord";
 
 $white: $nord6;
-
 $gray-100: $nord5;
 $gray-200: $nord4;
 $gray-300: mix($nord4, $nord3, 75%);
@@ -11,9 +10,7 @@ $gray-600: $nord3;
 $gray-700: $nord2;
 $gray-800: $nord1;
 $gray-900: mix($nord1, $nord0, 50%);
-
 $black: $nord0;
-
 
 $red: $nord11;
 $orange: $nord12;
@@ -26,7 +23,7 @@ $indigo: $nord10;
 $purple: $nord15;
 $pink: $nord15;
 
-/*$body-bg: $black;
+$body-bg: $black;
 $body-color: $white;
 $enable-shadows: true;
 $enable-gradients: false;
@@ -100,8 +97,7 @@ $navbar-light-active-color: $blue;
 $navbar-light-hover-color: $blue;
 $navbar-light-color: $white;
 $navbar-dark-brand-hover-color: rgba($gray-600, 0.80);
-$close-color: $white;
-$close-text-shadow: null;
-$close-font-weight: $font-weight-bolder;*/
+$btn-close-color: $white;
+$btn-close-text-shadow: null;
 
 @import "node_modules/bootstrap/scss/bootstrap"
