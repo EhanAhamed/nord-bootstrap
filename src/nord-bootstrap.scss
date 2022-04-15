@@ -26,7 +26,7 @@ $indigo: $nord10;
 $purple: $nord15;
 $pink: $nord15;
 
-$body-bg: $black;
+/*$body-bg: $black;
 $body-color: $white;
 $enable-shadows: true;
 $enable-gradients: false;
@@ -102,4 +102,6 @@ $navbar-light-color: $white;
 $navbar-dark-brand-hover-color: rgba($gray-600, 0.80);
 $close-color: $white;
 $close-text-shadow: null;
-$close-font-weight: $font-weight-bolder;
+$close-font-weight: $font-weight-bolder;*/
+
+@import "node_modules/bootstrap/scss/bootstrap"
