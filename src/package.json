@@ -1,0 +1,38 @@
+{
+  "name": "nord-bootstrap",
+  "version": "1.520.1",
+  "description": "The Community Maintained Nord Theme for Bootstrap 5.2.0-beta1 (https://getbootstrap.com/) (https://www.nordtheme.com/)",
+  "main": "index.js",
+  "scripts": {
+    "css": "npm-run-all css-compile css-prefix css-rtl css-minify",
+    "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/:dist/css/",
+    "css-rtl": "cross-env NODE_ENV=RTL postcss --config ./postcss.config.js --dir \"dist/css\" --ext \".rtl.css\" \"dist/css/*.css\" \"!dist/css/*.min.css\" \"!dist/css/*.rtl.css\"",
+    "css-minify": "npm-run-all --aggregate-output --parallel css-minify-*",
+    "css-minify-main": "cleancss -O1 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output dist/css/ --batch --batch-suffix \".min\" \"dist/css/*.css\" \"!dist/css/*.min.css\" \"!dist/css/*rtl*.css\"",
+    "css-minify-rtl": "cleancss -O1 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output dist/css/ --batch --batch-suffix \".min\" \"dist/css/*rtl.css\" \"!dist/css/*.min.css\"",
+    "css-prefix": "npm-run-all --aggregate-output --parallel css-prefix-*",
+    "css-prefix-main": "postcss --config ./postcss.config.js --replace \"dist/css/*.css\" \"!dist/css/*.rtl*.css\" \"!dist/css/*.min.css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/EhanAhamed/nord-bootstrap.git"
+  },
+  "author": "Ehan Ahamed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EhanAhamed/nord-bootstrap/issues"
+  },
+  "homepage": "https://github.com/EhanAhamed/nord-bootstrap#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "bootstrap": "^5.2.0-beta1",
+    "clean-css-cli": "^5.6.0",
+    "cross-env": "^7.0.3",
+    "nord": "^0.2.1",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.13",
+    "postcss-cli": "^9.1.0",
+    "rtlcss": "^3.5.0",
+    "sass": "^1.51.0"
+  }
+}
