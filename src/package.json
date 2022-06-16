@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "css": "npm-run-all css-compile css-prefix css-rtl css-minify",
-    "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/:dist/css/",
-    "css-rtl": "cross-env NODE_ENV=RTL postcss --config ./postcss.config.js --dir \"dist/css\" --ext \".rtl.css\" \"dist/css/*.css\" \"!dist/css/*.min.css\" \"!dist/css/*.rtl.css\"",
+    "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css ../dist/",
+    "css-rtl": "cross-env NODE_ENV=RTL postcss --config ./postcss.config.js --dir \"..dist/\" --ext \".rtl.css\" \"..dist/*.css\" \"!..dist/*.min.css\" \"!..dist/*.rtl.css\"",
     "css-minify": "npm-run-all --aggregate-output --parallel css-minify-*",
-    "css-minify-main": "cleancss -O1 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output dist/css/ --batch --batch-suffix \".min\" \"dist/css/*.css\" \"!dist/css/*.min.css\" \"!dist/css/*rtl*.css\"",
-    "css-minify-rtl": "cleancss -O1 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output dist/css/ --batch --batch-suffix \".min\" \"dist/css/*rtl.css\" \"!dist/css/*.min.css\"",
+    "css-minify-main": "cleancss -O1 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output ..dist/ --batch --batch-suffix \".min\" \"..dist/*.css\" \"!..dist/*.min.css\" \"!..dist/*rtl*.css\"",
+    "css-minify-rtl": "cleancss -O1 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output ..dist/ --batch --batch-suffix \".min\" \"..dist/*rtl.css\" \"!..dist/*.min.css\"",
     "css-prefix": "npm-run-all --aggregate-output --parallel css-prefix-*",
-    "css-prefix-main": "postcss --config ./postcss.config.js --replace \"dist/css/*.css\" \"!dist/css/*.rtl*.css\" \"!dist/css/*.min.css\""
+    "css-prefix-main": "postcss --config ./postcss.config.js --replace \"..dist/*.css\" \"!..dist/*.rtl*.css\" \"!..dist/*.min.css\""
   },
   "repository": {
     "type": "git",
