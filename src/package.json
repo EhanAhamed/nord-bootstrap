@@ -4,9 +4,9 @@
   "description": "The Community Maintained Nord Theme for Bootstrap 5.2.0-beta1 (https://getbootstrap.com/) (https://www.nordtheme.com/)",
   "main": "index.js",
   "scripts": {
-    "css": "npm run css-compile && npm run css-autoprefixer && npm run css-rtl",
-    "css-compile": "sass ./nord-bootstrap.scss ../dist/nord-bootstrap.css",
-    "css-autoprefixer": ""
+    "css": "npm run css-compile && npm run css-autoprefixer",
+    "css-compile": "sass ./nord-bootstrap.scss ../dist/nord-bootstrap.css --no-source-map",
+    "css-autoprefixer": "postcss ../dist/nord-bootstrap.css --replace --use autoprefixer"
   },
   "repository": {
     "type": "git",
