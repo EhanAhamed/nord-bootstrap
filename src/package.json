@@ -4,14 +4,9 @@
   "description": "The Community Maintained Nord Theme for Bootstrap 5.2.0-beta1 (https://getbootstrap.com/) (https://www.nordtheme.com/)",
   "main": "index.js",
   "scripts": {
-    "css": "npm-run-all css-compile css-prefix css-rtl css-minify",
-    "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css ../dist/",
-    "css-rtl": "cross-env NODE_ENV=RTL postcss --config ./postcss.config.js --dir \"..dist/\" --ext \".rtl.css\" \"..dist/*.css\" \"!..dist/*.min.css\" \"!..dist/*.rtl.css\"",
-    "css-minify": "npm-run-all --aggregate-output --parallel css-minify-*",
-    "css-minify-main": "cleancss -O1 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output ..dist/ --batch --batch-suffix \".min\" \"..dist/*.css\" \"!..dist/*.min.css\" \"!..dist/*rtl*.css\"",
-    "css-minify-rtl": "cleancss -O1 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output ..dist/ --batch --batch-suffix \".min\" \"..dist/*rtl.css\" \"!..dist/*.min.css\"",
-    "css-prefix": "npm-run-all --aggregate-output --parallel css-prefix-*",
-    "css-prefix-main": "postcss --config ./postcss.config.js --replace \"..dist/*.css\" \"!..dist/*.rtl*.css\" \"!..dist/*.min.css\""
+    "css": "npm run css-compile && npm run css-autoprefixer && npm run css-rtl",
+    "css-compile": "sass ./nord-bootstrap.scss ../dist/nord-bootstrap.css",
+    "css-autoprefixer": ""
   },
   "repository": {
     "type": "git",
@@ -26,13 +21,9 @@
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "bootstrap": "^5.2.0-beta1",
-    "clean-css-cli": "^5.6.0",
-    "cross-env": "^7.0.3",
     "nord": "^0.2.1",
-    "npm-run-all": "^4.1.5",
-    "postcss": "^8.4.13",
+    "postcss": "^8.4.14",
     "postcss-cli": "^9.1.0",
-    "rtlcss": "^3.5.0",
-    "sass": "^1.51.0"
+    "sass": "^1.52.3"
   }
 }
