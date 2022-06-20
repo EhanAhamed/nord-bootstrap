@@ -4,7 +4,7 @@
   "description": "The community maintained Nord Theme port for Bootstrap 5.2.0-beta1 (https://getbootstrap.com/) (https://www.nordtheme.com/)",
   "scripts": {
     "scss": "npm run scss-compile && npm run scss-autoprefixer && npm run scss-rtl",
-    "scss-compile": "sass ./nord-bootstrap.scss ./dist/nord-bootstrap.css --no-source-map",
+    "scss-compile": "sass ./src/nord-bootstrap.scss ./dist/nord-bootstrap.css --no-source-map",
     "scss-autoprefixer": "postcss ./dist/nord-bootstrap.css --replace --use autoprefixer",
     "scss-rtl": "rtlcss ./dist/nord-bootstrap.css ./dist/nord-bootstrap.rtl.css"
   },
