@@ -19,7 +19,12 @@
   },
   "homepage": "https://nord-bootstrap.ehan.dev/",
   "devDependencies": {
+    "autoprefixer": "^10.4.7",
     "bootstrap": "^5.2.0-beta1",
-    "nord": "^0.2.1"
+    "nord": "^0.2.1",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^9.1.0",
+    "rtlcss": "^3.5.0",
+    "sass": "^1.52.3"
   }
 }
