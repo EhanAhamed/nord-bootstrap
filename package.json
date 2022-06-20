@@ -1,0 +1,25 @@
+{
+  "name": "nord-bootstrap",
+  "version": "21.520.1",
+  "description": "The community maintained Nord Theme port for Bootstrap 5.2.0-beta1 (https://getbootstrap.com/) (https://www.nordtheme.com/)",
+  "scripts": {
+    "scss": "npm run scss-compile && npm run scss-autoprefixer && npm run scss-rtl",
+    "scss-compile": "sass ./nord-bootstrap.scss ./dist/nord-bootstrap.css --no-source-map",
+    "scss-autoprefixer": "postcss ./dist/nord-bootstrap.css --replace --use autoprefixer",
+    "scss-rtl": "rtlcss ./dist/nord-bootstrap.css ./dist/nord-bootstrap.rtl.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/EhanAhamed/nord-bootstrap.git"
+  },
+  "author": "Ehan Ahamed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EhanAhamed/nord-bootstrap/issues"
+  },
+  "homepage": "https://nord-bootstrap.ehan.dev/",
+  "devDependencies": {
+    "bootstrap": "^5.2.0-beta1",
+    "nord": "^0.2.1"
+  }
+}
