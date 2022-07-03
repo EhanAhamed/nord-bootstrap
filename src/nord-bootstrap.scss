@@ -60,5 +60,15 @@ $body-color: $white;
 $mark-bg: $yellow-400;
 $text-muted: $gray-300;
 $blockquote-footer-color: $gray-300;
+$table-variants: (
+  "primary":    $blue-900,
+  "secondary":  $gray-900,
+  "success":    $green-900,
+  "info":       $cyan-900,
+  "warning":    $yellow-900,
+  "danger":     $red-900,
+  "light":      $light,
+  "dark":       $dark,
+);
 
 @import "../node_modules/bootstrap/scss/bootstrap"; /* Import Bootstrap */

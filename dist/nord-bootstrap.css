@@ -1726,80 +1726,80 @@ progress {
   color: var(--bs-table-hover-color);
 }
 .table-primary {
-  --bs-table-color: #2e3440;
-  --bs-table-bg: #e7f2f6;
-  --bs-table-border-color: #d5dfe4;
-  --bs-table-striped-bg: #dee9ed;
-  --bs-table-striped-color: #2e3440;
-  --bs-table-active-bg: #d5dfe4;
-  --bs-table-active-color: #2e3440;
-  --bs-table-hover-bg: #d9e4e8;
-  --bs-table-hover-color: #2e3440;
+  --bs-table-color: #eceff4;
+  --bs-table-bg: #1b262a;
+  --bs-table-border-color: #303a3e;
+  --bs-table-striped-bg: #253034;
+  --bs-table-striped-color: #eceff4;
+  --bs-table-active-bg: #303a3e;
+  --bs-table-active-color: #eceff4;
+  --bs-table-hover-bg: #2b3539;
+  --bs-table-hover-color: #eceff4;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
 }
 .table-secondary {
-  --bs-table-color: #2e3440;
-  --bs-table-bg: #dbdde1;
-  --bs-table-border-color: #caccd1;
-  --bs-table-striped-bg: #d2d5d9;
-  --bs-table-striped-color: #2e3440;
-  --bs-table-active-bg: #caccd1;
-  --bs-table-active-color: #2e3440;
-  --bs-table-hover-bg: #ced0d5;
-  --bs-table-hover-color: #2e3440;
+  --bs-table-color: #eceff4;
+  --bs-table-bg: #353b49;
+  --bs-table-border-color: #474d5a;
+  --bs-table-striped-bg: #3e4452;
+  --bs-table-striped-color: #eceff4;
+  --bs-table-active-bg: #474d5a;
+  --bs-table-active-color: #eceff4;
+  --bs-table-hover-bg: #434956;
+  --bs-table-hover-color: #eceff4;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
 }
 .table-success {
-  --bs-table-color: #2e3440;
-  --bs-table-bg: #edf2e8;
-  --bs-table-border-color: #dadfd7;
-  --bs-table-striped-bg: #e3e9e0;
-  --bs-table-striped-color: #2e3440;
-  --bs-table-active-bg: #dadfd7;
-  --bs-table-active-color: #2e3440;
-  --bs-table-hover-bg: #dfe4db;
-  --bs-table-hover-color: #2e3440;
+  --bs-table-color: #eceff4;
+  --bs-table-bg: #21261c;
+  --bs-table-border-color: #353a32;
+  --bs-table-striped-bg: #2b3027;
+  --bs-table-striped-color: #eceff4;
+  --bs-table-active-bg: #353a32;
+  --bs-table-active-color: #eceff4;
+  --bs-table-hover-bg: #30352c;
+  --bs-table-hover-color: #eceff4;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
 }
 .table-info {
-  --bs-table-color: #2e3440;
-  --bs-table-bg: #e6ecf3;
-  --bs-table-border-color: #d4dae1;
-  --bs-table-striped-bg: #dde3ea;
-  --bs-table-striped-color: #2e3440;
-  --bs-table-active-bg: #d4dae1;
-  --bs-table-active-color: #2e3440;
-  --bs-table-hover-bg: #d8dee6;
-  --bs-table-hover-color: #2e3440;
+  --bs-table-color: #eceff4;
+  --bs-table-bg: #1a2027;
+  --bs-table-border-color: #2f353c;
+  --bs-table-striped-bg: #252a31;
+  --bs-table-striped-color: #eceff4;
+  --bs-table-active-bg: #2f353c;
+  --bs-table-active-color: #eceff4;
+  --bs-table-hover-bg: #2a3036;
+  --bs-table-hover-color: #eceff4;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
 }
 .table-warning {
-  --bs-table-color: #2e3440;
-  --bs-table-bg: #fbf5e8;
-  --bs-table-border-color: #e7e2d7;
-  --bs-table-striped-bg: #f1ebe0;
-  --bs-table-striped-color: #2e3440;
-  --bs-table-active-bg: #e7e2d7;
-  --bs-table-active-color: #2e3440;
-  --bs-table-hover-bg: #ece7db;
-  --bs-table-hover-color: #2e3440;
+  --bs-table-color: #eceff4;
+  --bs-table-bg: #2f291c;
+  --bs-table-border-color: #423d32;
+  --bs-table-striped-bg: #383327;
+  --bs-table-striped-color: #eceff4;
+  --bs-table-active-bg: #423d32;
+  --bs-table-active-color: #eceff4;
+  --bs-table-hover-bg: #3d382c;
+  --bs-table-hover-color: #eceff4;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
 }
 .table-danger {
-  --bs-table-color: #2e3440;
-  --bs-table-bg: #f2dfe1;
-  --bs-table-border-color: #deced1;
-  --bs-table-striped-bg: #e8d6d9;
-  --bs-table-striped-color: #2e3440;
-  --bs-table-active-bg: #deced1;
-  --bs-table-active-color: #2e3440;
-  --bs-table-hover-bg: #e3d2d5;
-  --bs-table-hover-color: #2e3440;
+  --bs-table-color: #eceff4;
+  --bs-table-bg: #261315;
+  --bs-table-border-color: #3a292b;
+  --bs-table-striped-bg: #301e20;
+  --bs-table-striped-color: #eceff4;
+  --bs-table-active-bg: #3a292b;
+  --bs-table-active-color: #eceff4;
+  --bs-table-hover-bg: #352426;
+  --bs-table-hover-color: #eceff4;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
 }
