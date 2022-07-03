@@ -13,7 +13,7 @@
  * Nord v0.2.1 (https://nordtheme.com/)
  * Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
  * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
- * Licensed under the Apache License Version 2.0 (https://github.com/arcticicestudio/nord/blob/master/LICENSE.md)
+ * Licensed under the Apache License Version 2.0 (https://raw.githubusercontent.com/arcticicestudio/nord/master/LICENSE.md)
  */
 
 @import "../node_modules/nord/src/sass/nord.scss"; /* Import Nord Colors */
@@ -58,5 +58,6 @@ $dark: $gray-900;
 $body-bg: $black;
 $body-color: $white;
 $mark-bg: $yellow-400;
+$text-muted: $gray-300;
 
 @import "../node_modules/bootstrap/scss/bootstrap"; /* Import Bootstrap */

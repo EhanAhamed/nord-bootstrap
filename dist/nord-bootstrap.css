@@ -14,7 +14,7 @@
  * Nord v0.2.1 (https://nordtheme.com/)
  * Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
  * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
- * Licensed under the Apache License Version 2.0 (https://github.com/arcticicestudio/nord/blob/master/LICENSE.md)
+ * Licensed under the Apache License Version 2.0 (https://raw.githubusercontent.com/arcticicestudio/nord/master/LICENSE.md)
  */
 :root {
   --bs-blue: #88c0d0;
@@ -7730,7 +7730,7 @@ fieldset:disabled .btn {
 }
 .text-muted {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-body-color-rgb), 0.75) !important;
+  color: #b5bcc9 !important;
 }
 .text-black-50 {
   --bs-text-opacity: 1;
