@@ -23,7 +23,7 @@
 $white: $nord6;
 $gray-100: $nord5;
 $gray-200: $nord4;
-$gray-300: mix($nord4, $nord3, 75%);
+$gray-300: mix($nord4, $nord3, 75%); /* Generate Co */
 $gray-400: mix($nord4, $nord3, 50%);
 $gray-500: mix($nord4, $nord3, 25%);
 $gray-600: $nord3;
@@ -58,6 +58,6 @@ $dark: $gray-900;
 $body-bg: $black;
 $body-color: $white;
 $mark-bg: $yellow-400;
-$text-muted: $gray-300;
+$text-muted: #ff0000;
 
 @import "../node_modules/bootstrap/scss/bootstrap"; /* Import Bootstrap */

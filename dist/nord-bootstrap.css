@@ -7730,7 +7730,7 @@ fieldset:disabled .btn {
 }
 .text-muted {
   --bs-text-opacity: 1;
-  color: #b5bcc9 !important;
+  color: red !important;
 }
 .text-black-50 {
   --bs-text-opacity: 1;
