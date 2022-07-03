@@ -556,7 +556,7 @@ progress {
   margin-top: -1rem;
   margin-bottom: 1rem;
   font-size: 0.875em;
-  color: #4c566a;
+  color: #b5bcc9;
 }
 .blockquote-footer::before {
   content: "— ";
@@ -7732,7 +7732,7 @@ fieldset:disabled .btn {
 }
 .text-muted {
   --bs-text-opacity: 1;
-  color: red !important;
+  color: #b5bcc9 !important;
 }
 .text-black-50 {
   --bs-text-opacity: 1;

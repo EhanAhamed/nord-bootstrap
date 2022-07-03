@@ -58,6 +58,7 @@ $dark: $gray-900;
 $body-bg: $black;
 $body-color: $white;
 $mark-bg: $yellow-400;
-$text-muted: #ff0000;
+$text-muted: $gray-300;
+$blockquote-footer-color: $gray-300;
 
 @import "../node_modules/bootstrap/scss/bootstrap"; /* Import Bootstrap */
