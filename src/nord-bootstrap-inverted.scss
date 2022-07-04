@@ -1,0 +1,55 @@
+/*!
+ * Nord Bootstrap v21.520.1 (https://nord-bootstrap.ehan.dev/)
+ * Copyright (c) 2022 Ehan Ahamed and contributors
+ * Licensed under the MIT License (https://github.com/EhanAhamed/nord-bootstrap/blob/main/LICENSE.txt)
+ *
+ * This software, Nord Bootstrap, includes the following works:
+ * 
+ * Bootstrap v5.2.0-beta1 (https://getbootstrap.com/)
+ * Copyright (c) 2011-2022 The Bootstrap Authors
+ * Copyright (c) 2011-2022 Twitter, Inc.
+ * Licensed under the MIT License (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ *
+ * Nord v0.2.1 (https://nordtheme.com/)
+ * Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * Licensed under the Apache License Version 2.0 (https://raw.githubusercontent.com/arcticicestudio/nord/master/LICENSE.md)
+ */
+
+@import "../node_modules/nord/src/sass/nord.scss"; /* Import Nord Colors */
+@import "../node_modules/bootstrap/scss/functions"; /* Import Bootstrap SCSS Functions */
+
+/* Define Colors */
+$white: $nord0;
+$gray-100: $nord1;
+$gray-200: $nord2;
+$gray-300: mix($nord2, $nord3, 75%); /* Generate Co */
+$gray-400: mix($nord2, $nord3, 50%);
+$gray-500: mix($nord2, $nord3, 25%);
+$gray-600: $nord3;
+$gray-700: $nord4;
+$gray-800: $nord5;
+$gray-900: mix($nord5, $nord6, 50%);
+$black: $nord6;
+
+$red: $nord11;
+$orange: $nord12;
+$yellow: $nord13;
+$green: $nord14;
+$teal: $nord7;
+$cyan: $nord9;
+$blue: $nord8;
+$indigo: $nord10;
+$purple: $nord15;
+$pink: $nord15;
+
+$primary: $blue;
+$secondary: $gray-600;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+
+@import "../node_modules/bootstrap/scss/variables"; /* Import Bootstap Colors After Defining Nord Colors */
+
+@import "../node_modules/bootstrap/scss/bootstrap"; /* Import Bootstrap */

@@ -3,10 +3,19 @@
   "version": "21.520.1",
   "description": "The community maintained Nord Theme port for Bootstrap 5.2.0-beta1 (https://getbootstrap.com/) (https://www.nordtheme.com/)",
   "scripts": {
-    "scss": "npm run scss-compile && npm run scss-autoprefixer && npm run scss-rtl",
+    "scss": "npm run scss-main && npm run scss-inverted && npm run scss-light",
+    "scss-main": "npm run scss-compile && npm run scss-autoprefixer && npm run scss-rtl",
     "scss-compile": "sass ./src/nord-bootstrap.scss ./dist/nord-bootstrap.css --no-source-map",
     "scss-autoprefixer": "postcss ./dist/nord-bootstrap.css --replace --use autoprefixer",
-    "scss-rtl": "rtlcss ./dist/nord-bootstrap.css ./dist/nord-bootstrap.rtl.css"
+    "scss-rtl": "rtlcss ./dist/nord-bootstrap.css ./dist/nord-bootstrap.rtl.css",
+    "scss-inverted": "npm run scss-compile-inverted && npm run scss-autoprefixer-inverted && npm run scss-rtl-inverted",
+    "scss-compile-inverted": "sass ./src/nord-bootstrap-inverted.scss ./dist/nord-bootstrap-inverted.css --no-source-map",
+    "scss-autoprefixer-inverted": "postcss ./dist/nord-bootstrap-inverted.css --replace --use autoprefixer",
+    "scss-rtl-inverted": "rtlcss ./dist/nord-bootstrap-inverted.css ./dist/nord-bootstrap-inverted.rtl.css",
+    "scss-light": "npm run scss-compile-light && npm run scss-autoprefixer-light && npm run scss-rtl-light",
+    "scss-compile-light": "sass ./src/nord-bootstrap-light.scss ./dist/nord-bootstrap-light.css --no-source-map",
+    "scss-autoprefixer-light": "postcss ./dist/nord-bootstrap-light.css --replace --use autoprefixer",
+    "scss-rtl-light": "rtlcss ./dist/nord-bootstrap-light.css ./dist/nord-bootstrap-light.rtl.css"
   },
   "repository": {
     "type": "git",
