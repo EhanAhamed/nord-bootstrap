@@ -61,12 +61,12 @@ $mark-bg: $yellow-400;
 $text-muted: $gray-300;
 $blockquote-footer-color: $gray-300;
 $table-variants: (
-  "primary":    $blue-700,
-  "secondary":  $gray-700,
-  "success":    $green-700,
-  "info":       $cyan-700,
-  "warning":    $yellow-700,
-  "danger":     $red-700,
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
   "light":      $light,
   "dark":       $dark,
 );
