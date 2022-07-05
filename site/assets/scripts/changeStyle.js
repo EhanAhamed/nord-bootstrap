@@ -127,7 +127,7 @@ function changeStyle(style) {
     console.error(
       "changeStyle.js - changeStyle('styleToSwitchTo');\n" +
         "Style to switch to is undefined, you must pass a string of the style to switch to as a parameter in the function call, like so:\n" +
-        "changeStyle('styleToSwitchTo')\n" +
+        "changeStyle('styleToSwitchTo');\n" +
         "Options are 'Regular', 'RegularRTL', 'Inverted', 'InvertedRTL', 'Light', or 'LightRTL'."
     );
   }
