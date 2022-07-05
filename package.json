@@ -1,7 +1,7 @@
 {
   "name": "nord-bootstrap",
   "version": "21.520.1",
-  "description": "The community-maintained Nord Theme port for Bootstrap 5.2.0-beta1 (https://www.nordtheme.com/) (https://getbootstrap.com/)",
+  "description": "The community-maintained Nord Theme port for Bootstrap 5.2.0-beta1 (https://nord-bootstrap.ehan.dev/) (https://www.nordtheme.com/) (https://getbootstrap.com/)",
   "scripts": {
     "scss": "npm run scss-main && npm run scss-inverted && npm run scss-light",
     "scss-main": "npm run scss-compile && npm run scss-autoprefixer && npm run scss-rtl",
